@@ -136,8 +136,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static boolean validateNumber(String mobNumber)
     {
-            if(mobNumber.length()<10)
-                return false;
+
     //validates phone numbers having 10 digits (9998887776)
             if (mobNumber.matches("\\d{10}"))
                 return true;
