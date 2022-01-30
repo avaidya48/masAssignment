@@ -27,6 +27,7 @@
         android:layout_marginTop="188dp"
         android:ems="10"
         android:inputType="phone"
+        android:hint="Enter Mobile Number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
